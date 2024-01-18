@@ -1,0 +1,379 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Uncial+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Permanent+Marker&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Open+Sans:wght@300;400&display=swap');
+
+:root {
+    --primary: #ae0c0c;
+    --secondary: #000000;
+    --text: #c7c7c7;
+    --cto: #dd7c12;
+    --cto-ligth: #ee9d47;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    border: 0;
+    font-size: 10px;
+    color: var(--text);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid .1rem var(--text);
+    background-color: var(--secondary);
+    padding: 1rem 10rem;
+}
+
+.logo {
+    height: 8rem;
+    width: 8rem;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 30px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-size: 2rem;
+}
+
+li a:hover {
+    color: var(--primary);
+    border-bottom: 1px solid var(--primary);
+}
+
+
+.contact-btn {
+    background-color: var(--cto);
+    border-radius: 3rem;
+    padding: 1rem 3rem;
+    border: solid .1rem;
+    width: fit-content;
+    border: solid .2rem transparent;
+}
+
+.contact-btn:hover {
+    /* background-color: var(--cto-ligth); */
+    color: var(--secondary);
+    border: solid .2rem var(--cto-ligth);
+    box-shadow: .1rem .2rem .8rem #ee9d47;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: auto;
+    /* padding-left: 8rem; */
+    background-image: url(/images/trono.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--secondary);
+    /* padding-top: 8rem; */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 10rem;
+    height: 100vh;
+    justify-content: center;
+}
+
+.content h2 {
+    font-size: 5rem;
+}
+
+.content p {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    margin-bottom: 3rem;
+}
+
+.ardeal {
+    display: inline;
+}
+
+span {
+    /* font-family: 'Uncial Antiqua'; */
+    /* font-family: 'Permanent Marker', cursive; */
+    /* font-family: 'Domine', serif; */
+    font-family: 'League Gothic', sans-serif;
+    font-size: 10rem;
+}
+
+span:hover {
+    color: var(--primary);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+#about {
+    background-image: url(/images/esqueletos.png);
+    /* background-size: cover; */
+    background-color: var(--secondary);
+}
+
+section .logo {
+    height: 20rem;
+    width: 20rem;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    padding: 3rem;
+    letter-spacing: .1rem;
+}
+
+section h3 {
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    padding: 2rem;
+    color: var(--cto);
+    border-bottom: solid .1rem var(--cto-ligth);
+    border-top: solid .1rem var(--cto-ligth);
+}
+
+
+section .linkedin {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+section .linkedin a img {
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    margin: 2rem;
+}
+
+
+section .linkedin img:hover {
+    border: solid .3rem var(--cto-ligth);
+    box-shadow: .3rem .4rem 1rem #ee9d47;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--secondary);
+    height: 80vh;
+    background-image: url(/images/trono.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 10rem;
+}
+
+.contact-section {
+    width: 50vw;
+    height: 80vh;
+    margin-top: 2rem;
+}
+
+.contact-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contact-section-text h2,
+.contact-section-social h2 {
+    padding: 0;
+    width: fit-content;
+    font-size: 3.5rem;
+    margin: 5rem 0;
+    border-bottom: solid .1rem var(--cto-ligth);
+    border-top: solid .1rem var(--cto-ligth);
+}
+
+.contact-section-text p {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+}
+
+.contact-section-social {
+    padding-top: 5rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.social-links a img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.social-links a img:hover {
+    border: solid .2rem var(--cto-ligth);
+    border-radius: 50%;
+    box-shadow: .2rem .3rem 1rem #ee9d47;
+}
+
+.contact-form {
+    width: 30vw;
+    background-color: #c7c7c7;
+}
+
+.email {
+    /* margin-top: 10rem; */
+    width: fit-content;
+
+}
+
+.email h3 {
+    border: none;
+    font-size: 2.5rem;
+    color: var(--text);
+    padding: 3rem 0 0;
+
+}
+
+.email h3 a {
+    color: var(--cto);
+    font-size: 3rem;
+    /* border-bottom: solid .1rem var(--cto-ligth); */
+    border-bottom: solid .1rem var(--cto-ligth);
+    font-family: 'League Gothic', sans-serif;
+}
+
+
+footer {
+    height: 10vh;
+    width: 100%;
+    border-top: solid .1rem var(--text);
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 2rem;
+    border-bottom: solid .1rem var(--text);
+    font-family: 'League Gothic', sans-serif;
+}
+
+
+
+
+/* Game section --------------------------------------------------- */
+
+
+
+#videoSection {
+    background-color: var(--secondary);
+}
+
+#myVideo {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+
+#newSection {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/korik.png);
+    background-position: bottom;
+    background-color: var(--secondary);
+    display: none;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 50%;
+    height: 40%;
+    margin-top: -10rem;
+}
+
+.container-left img {
+    width: 70rem;
+    height: 35rem;
+}
+
+.container-rigth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.container-rigth img {
+    width: 40rem;
+    height: 20rem;
+    padding: 0 2rem 1rem;
+}
+
+.container-rigth p {
+    width: fit-content;
+    padding: 0 2rem 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.container-rigth a {
+    margin: 1rem;
+}
+
+.secondary-btn {
+    border-bottom: solid .1rem var(--cto-ligth);
+    width: fit-content;
+    color: var(--text);
+}
+
+#achievement {
+    width: 20rem;
+    height: 20rem;
+}
+
+/* End Game section --------------------------------------------- */
