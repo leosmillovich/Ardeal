@@ -25,6 +25,15 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-image: url(../images/trono.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--background);
+}
+
 header {
     position: fixed;
     width: 100vw;
@@ -92,14 +101,6 @@ main {
     display: flex;
     align-items: center;
     height: auto;
-    /* padding-left: 8rem; */
-    background-image: url(../images/trono.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--background);
-    /* padding-top: 8rem; */
 }
 
 .content {
@@ -189,14 +190,7 @@ section .linkedin img:hover {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: var(--background);
-    height: 80vh;
-    background-image: url(../images/trono.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 10rem;
+    padding-top: 15rem;
 }
 
 .contact-section {
