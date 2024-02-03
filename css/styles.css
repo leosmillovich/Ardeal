@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Uncial+Antiqua&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Permanent+Marker&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Open+Sans:wght@300;400&display=swap');
 
 :root {
@@ -124,9 +122,6 @@ main {
 }
 
 span {
-    /* font-family: 'Uncial Antiqua'; */
-    /* font-family: 'Permanent Marker', cursive; */
-    /* font-family: 'Domine', serif; */
     font-family: 'League Gothic', sans-serif;
     font-size: 10rem;
 }
@@ -146,7 +141,6 @@ section {
 
 #about {
     background-image: url(../images/esqueletos.png);
-    /* background-size: cover; */
     background-color: var(--secondary);
 }
 
@@ -299,9 +293,6 @@ footer p {
 
 
 /* Game section --------------------------------------------------- */
-
-
-
 #videoSection {
     background-color: var(--secondary);
 }
@@ -341,11 +332,6 @@ footer p {
     align-items: center;
     height: 60vh;
 }
-
-/* .container-left img {
-    width: 70rem;
-    height: 35rem;
-} */
 
 .container-left a {
     margin-top: 3rem;
@@ -389,6 +375,8 @@ footer p {
 
 /* End Game section --------------------------------------------- */
 
+
+/* Responsive section */
 @media (max-width: 860px) {
 
     *,
@@ -397,12 +385,16 @@ footer p {
         font-size: 8px;
     }
 
+    .header {
+        padding: 1rem 2rem;
+    }
     main {
         background-position: right;
     }
 
     .content {
         width: 100%;
+        padding: 2.5rem;
     }
 
     .content p {
@@ -444,6 +436,7 @@ footer p {
         align-items: center;
         width: 100%;
         height: 100%;
+        margin-top: 3rem;
     }
 
     .container-left {
@@ -477,8 +470,6 @@ footer p {
     .social-links {
         margin-left: 3rem;
     }
-    
-
 
 }
 
@@ -564,13 +555,13 @@ footer p {
         flex-direction: column;
         justify-content: space-between;
         height: 100vh;
+        margin-top: 25rem;
     }
     
 
     .container iframe {
-        width: 40rem;
-        height: 20rem;
-        padding-top: 3rem;
+        width: 45rem;
+        height: 25rem;
     }
 
     .container-rigth a {
