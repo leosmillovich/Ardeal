@@ -195,7 +195,7 @@ section .linkedin img:hover {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: var(--secondary);
+    background-color: var(--background);
     height: 80vh;
     background-image: url(../images/trono.png);
     background-size: cover;
@@ -434,6 +434,7 @@ footer p {
 
     html {
         background-color: var(--secondary);
+        z-index: -1;
     }
 
     header {
@@ -487,7 +488,7 @@ footer p {
     footer {
         display: flex;
         justify-content: center;
-        height: 20vh;
+        height: 10vh;
         border: none;
     }
 }
