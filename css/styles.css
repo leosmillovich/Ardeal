@@ -362,12 +362,6 @@ footer p {
     margin: 1rem;
 }
 
-.secondary-btn {
-    border-bottom: solid .1rem var(--cto-ligth);
-    width: fit-content;
-    color: var(--text);
-}
-
 #achievement {
     width: 20rem;
     height: 20rem;
@@ -385,9 +379,15 @@ footer p {
         font-size: 8px;
     }
 
+    html {
+        background-color: var(--secondary);
+        z-index: -1;
+    }
+
     .header {
         padding: 1rem 2rem;
     }
+
     main {
         background-position: right;
     }
@@ -417,7 +417,7 @@ footer p {
     }
 
     .social-links a {
-       padding: .3rem;
+        padding: .3rem;
     }
 
 
@@ -443,11 +443,34 @@ footer p {
         border-bottom: solid .1rem var(--cto-ligth);
         justify-content: space-around;
     }
-   
+
     .container iframe {
         padding-top: 5rem;
     }
 
+    .container-rigth {
+        width: 80%;
+        height: 100%;
+        justify-content: flex-start;
+    }
+
+    .container-rigth img {
+        width: 60rem;
+        height: 25rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-rigth p {
+        width: 60rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #achievement {
+        padding: 2rem;
+        width: 25rem;
+        height: 25rem;
+    }
 
 }
 
@@ -515,8 +538,8 @@ footer p {
 
     .social-links a {
         padding: .5rem;
-     }
- 
+    }
+
 
     .social-links a img {
         width: 5rem;
@@ -550,6 +573,7 @@ footer p {
     #newSection {
         background-image: none;
     }
+
     .container {
         display: flex;
         flex-direction: column;
@@ -557,15 +581,49 @@ footer p {
         height: 100vh;
         margin-top: 25rem;
     }
-    
+
+    .container .contact-btn {
+        border-radius: 2rem;
+        padding: 1rem 2rem;
+        border: solid .1rem;
+        width: fit-content;
+        border: solid .1rem transparent;
+        font-size: 1rem;
+    }
 
     .container iframe {
         width: 45rem;
         height: 25rem;
     }
 
+    .container-rigth {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .container-rigth img {
+        width: 50rem;
+        height: 25rem;
+        padding-top: 3rem;
+        
+    }
+
     .container-rigth a {
         margin: 2rem;
     }
+
+    .container-rigth p {
+        width: 50rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #achievement {
+        padding: 2rem;
+        width: 25rem;
+        height: 25rem;
+    }
+
 
 }
