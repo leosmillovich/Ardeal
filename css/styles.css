@@ -382,7 +382,7 @@ footer p {
         padding: 1rem 2rem;
     }
 
-    main {
+    body {
         background-position: right;
     }
 
@@ -394,10 +394,6 @@ footer p {
     .content p {
         padding: 1rem;
         font-size: 3.5rem;
-    }
-
-    #about {
-        background-position: right;
     }
 
     #contact {
