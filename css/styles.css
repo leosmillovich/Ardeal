@@ -195,7 +195,7 @@ section .linkedin img:hover {
 
 .contact-section {
     width: 50vw;
-    height: 80vh;
+    height: 100vh;
     margin-top: 2rem;
 }
 
@@ -247,9 +247,7 @@ section .linkedin img:hover {
 }
 
 .email {
-    /* margin-top: 10rem; */
     width: fit-content;
-
 }
 
 .email h3 {
@@ -514,12 +512,11 @@ footer p {
 
     .contact-section {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin: 0 2rem;
-        padding-top: 0;
+        padding-top: 2rem;
         margin-top: 0;
         width: 100%;
-        height: 100vh;
     }
 
     .contact-section-social {
@@ -614,6 +611,4 @@ footer p {
         width: 25rem;
         height: 25rem;
     }
-
-
 }
