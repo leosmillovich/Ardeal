@@ -392,9 +392,9 @@ footer p {
         padding: 1rem 2rem;
     }
 
-    body {  
+    body {
         background-attachment: scroll;
-        background-position: right;
+        background-position: 78%;
     }
 
     .content {
@@ -410,7 +410,6 @@ footer p {
     #about {
         border-bottom: solid .1rem var(--text);
         background-attachment: scroll;
-        background-position: right;
     }
 
 
@@ -423,6 +422,9 @@ footer p {
         padding: .3rem;
     }
 
+    #contact {
+        height: 85vh;
+    }
 
     /* Game page section */
     #newSection {
@@ -496,7 +498,6 @@ footer p {
     .social-links {
         margin-left: 3rem;
     }
-
 
 }
 
