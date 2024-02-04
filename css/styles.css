@@ -394,6 +394,7 @@ footer p {
 
     body {  
         background-attachment: scroll;
+        background-position: right;
     }
 
     .content {
