@@ -201,12 +201,6 @@ section .linkedin img:hover {
     align-items: center;
     justify-content: space-around;
     padding-top: 15rem;
-    background-image: url(../images/trono.png);
-    background-color: var(--secondary);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .contact-section {
