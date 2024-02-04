@@ -393,9 +393,9 @@ footer p {
         padding: 1rem 2rem;
     }
 
-    body {
+    /* body {
         background-position: right;
-    }
+    } */
 
     .content {
         width: 100%;
@@ -407,26 +407,13 @@ footer p {
         font-size: 3.5rem;
     }
 
-    #contact {
-        background-position: right;
-        height: 100%;
-    }
-
     #about {
-        min-height: 100%;
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
+        border-bottom: solid .1rem var(--text);
+    }
+
+    /* section {
         background-position: right;
-    }
-
-    #about .logo {
-        margin: 2rem;
-    }
-
-    #about h2 {
-        margin: 2rem;
-    }
+    } */
 
     .social-links a img {
         width: 5rem;
@@ -511,9 +498,6 @@ footer p {
         margin-left: 3rem;
     }
 
-    #about {
-        min-height: 100%;
-    }
 
 }
 
