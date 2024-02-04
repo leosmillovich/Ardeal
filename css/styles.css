@@ -134,10 +134,11 @@ span:hover {
 section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    height: 100vh;
+    min-height: 100%;
     background-size: cover;
+    padding: 25rem 0;
 }
 
 #about {
@@ -194,8 +195,8 @@ section .linkedin img:hover {
 }
 
 .contact-section {
-    width: 50vw;
-    height: 100vh;
+    width: 50%;
+    height: 100%;
     margin-top: 2rem;
 }
 
@@ -399,6 +400,18 @@ footer p {
         height: 100%;
     }
 
+    #about {
+        min-height: 100%;
+    }
+
+    #about .logo {
+        margin: 2rem;
+    }
+
+    #about h2 {
+        margin: 2rem;
+    }
+
     .social-links a img {
         width: 5rem;
         height: 5rem;
@@ -482,13 +495,17 @@ footer p {
         margin-left: 3rem;
     }
 
+    #about {
+        min-height: 100%;
+    }
+
 }
 
 @media (orientation: landscape) and (max-height: 412px) {
 
     html {
         background-color: var(--secondary);
-        z-index: -1;
+        /* z-index: -1; */
     }
 
     header {
@@ -498,12 +515,6 @@ footer p {
 
     main {
         padding-top: 3rem;
-    }
-
-    main,
-    #about,
-    section {
-        height: 100%;
     }
 
     #contact {
