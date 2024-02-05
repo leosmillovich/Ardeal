@@ -34,7 +34,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--background);
-    
+
 }
 
 header {
@@ -94,7 +94,6 @@ li a:hover {
 }
 
 .contact-btn:hover {
-    /* background-color: var(--cto-ligth); */
     color: var(--secondary);
     border: solid .2rem var(--cto-ligth);
     box-shadow: .1rem .2rem .8rem #ee9d47;
@@ -141,12 +140,6 @@ section {
     align-items: center;
     min-height: 100%;
     padding: 25rem 0;
-    /* background-image: url(../images/esqueletos.png);
-    background-color: var(--secondary);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center; */
 }
 
 #about {
@@ -154,7 +147,6 @@ section {
     background-color: var(--secondary);
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -294,13 +286,7 @@ footer p {
     font-family: 'League Gothic', sans-serif;
 }
 
-
-
-/* Game section --------------------------------------------------- */
-#videoSection {
-    background-color: var(--secondary);
-}
-
+/* Game section, esta separado pues, comenzo en otro archivo html y Actualmente se encuentra en el mismo index.html --------------------------------------------------- */
 #games {
     width: 100%;
     height: 100vh;
@@ -390,13 +376,14 @@ footer p {
 
     body {
         background-attachment: scroll;
-        background-position: 86%;
+        background-position: 80%;
     }
 
     .content {
         width: 100%;
         padding: 2.5rem;
     }
+
 
     .content p {
         padding: 1rem;
@@ -425,7 +412,6 @@ footer p {
     /* Game page section */
     #games {
         background-image: none;
-        /* padding-top: 10rem; */
         height: 100%;
         width: 100%;
     }
@@ -437,11 +423,10 @@ footer p {
         align-items: center;
         width: 100%;
         height: 100%;
-        /* margin-top: 3rem; */
+        margin-top: 1rem;
     }
 
     .container-left {
-        border-bottom: solid .1rem var(--cto-ligth);
         align-items: center;
         padding-top: 10rem;
         height: 55%;
@@ -451,7 +436,6 @@ footer p {
     }
 
     .container-rigth {
-        /* width: 80%; */
         height: 55%;
         align-items: center;
         border-bottom: solid .1rem var(--cto-ligth);
@@ -504,7 +488,6 @@ footer p {
 
     html {
         background-color: var(--secondary);
-        /* z-index: -1; */
     }
 
     header {
@@ -514,6 +497,10 @@ footer p {
 
     main {
         padding-top: 3rem;
+    }
+
+    span {
+        font-size: 7rem;
     }
 
     #contact {
