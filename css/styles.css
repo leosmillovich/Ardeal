@@ -23,6 +23,8 @@
 
 html {
     scroll-behavior: smooth;
+    scrollbar-color: #ae0c0c #162013;
+    scrollbar-width: auto;
 }
 
 body {
@@ -32,6 +34,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--background);
+    
 }
 
 header {
