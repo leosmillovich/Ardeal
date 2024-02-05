@@ -301,13 +301,7 @@ footer p {
     background-color: var(--secondary);
 }
 
-#myVideo {
-    width: 100%;
-    height: 80%;
-    overflow: hidden;
-}
-
-#newSection {
+#games {
     width: 100%;
     height: 100vh;
     background-image: url(../images/korik.png);
@@ -316,7 +310,6 @@ footer p {
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--secondary);
-    display: none;
 }
 
 .container {
@@ -397,7 +390,7 @@ footer p {
 
     body {
         background-attachment: scroll;
-        background-position: 78%;
+        background-position: 86%;
     }
 
     .content {
@@ -430,11 +423,11 @@ footer p {
     }
 
     /* Game page section */
-    #newSection {
+    #games {
         background-image: none;
-        padding-top: 10rem;
-        height: 100vh;
-        width: 100vw;
+        /* padding-top: 10rem; */
+        height: 100%;
+        width: 100%;
     }
 
     .container {
@@ -444,22 +437,24 @@ footer p {
         align-items: center;
         width: 100%;
         height: 100%;
-        margin-top: 3rem;
+        /* margin-top: 3rem; */
     }
 
     .container-left {
         border-bottom: solid .1rem var(--cto-ligth);
-        justify-content: space-around;
-    }
-
-    .container iframe {
-        padding-top: 5rem;
+        align-items: center;
+        padding-top: 10rem;
+        height: 55%;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        width: auto;
     }
 
     .container-rigth {
-        width: 80%;
-        height: 100%;
-        justify-content: flex-start;
+        /* width: 80%; */
+        height: 55%;
+        align-items: center;
+        border-bottom: solid .1rem var(--cto-ligth);
     }
 
     .container-rigth img {
@@ -467,6 +462,7 @@ footer p {
         height: 25rem;
         padding: 2rem 1rem;
     }
+
 
     .container-rigth p {
         width: 60rem;
@@ -571,7 +567,7 @@ footer p {
 
 
     /* Game section */
-    #newSection {
+    #games {
         background-image: none;
     }
 
@@ -579,7 +575,7 @@ footer p {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 100vh;
+        height: 100%;
         margin-top: 25rem;
     }
 
