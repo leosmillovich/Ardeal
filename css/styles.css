@@ -78,11 +78,24 @@ a {
     font-size: 2rem;
 }
 
-li a:hover {
-    color: var(--primary);
-    border-bottom: 1px solid var(--primary);
+/* Activar los links al navegar chatgpt :)*/
+.nav-link {
+    position: relative;
 }
 
+.nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: -.5rem; /* Ajusta este valor según tu diseño */
+    left: 0;
+    width: 100%;
+    height: .2rem; /* Ajusta el grosor de la línea */
+    background-color: var(--primary); /* Color del borde inferior activo */
+}
+
+li a:hover {
+    color: var(--primary);
+}
 
 .contact-btn {
     background-color: var(--cto);
