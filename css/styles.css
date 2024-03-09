@@ -142,7 +142,7 @@ main {
 
 span {
     font-family: 'League Gothic', sans-serif;
-    font-size: 10rem;
+    font-size: 12rem;
 }
 
 span:hover {
@@ -321,14 +321,18 @@ footer p {
     justify-content: space-around;
     width: 50%;
     height: 40%;
-    margin-top: -30rem;
+    margin-top: -25rem;
 }
 
 .container iframe {
-    width: 56rem;
-    height: 32rem;
+    width: 70rem;
+    height: 40rem;
 }
 
+.logo_steam {
+    width: 25rem;
+    height: 10rem;
+}
 .container-left {
     display: flex;
     flex-direction: column;
@@ -349,15 +353,15 @@ footer p {
 }
 
 .container-rigth img {
-    width: 40rem;
-    height: 20rem;
+    width: 45rem;
+    height: 25rem;
     padding: 0 2rem 1rem;
 }
 
 .container-rigth p {
     width: fit-content;
-    padding: 0 2rem 1rem;
-    font-size: 1.5rem;
+    padding: 0  2rem 1rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -441,6 +445,11 @@ footer p {
         margin-top: 1rem;
     }
 
+    .container iframe, .container-rigth img{
+        width: 60rem;
+        height: 25rem;
+    } 
+
     .container-left {
         align-items: center;
         padding-top: 10rem;
@@ -455,13 +464,9 @@ footer p {
         align-items: center;
         border-bottom: solid .1rem var(--cto-ligth);
     }
-
-    .container-rigth img {
-        width: 60rem;
-        height: 25rem;
-        padding: 2rem 1rem;
-    }
-
+    .container-rigth img{
+        padding: 2rem 1rem;   
+    }     
 
     .container-rigth p {
         width: 60rem;
