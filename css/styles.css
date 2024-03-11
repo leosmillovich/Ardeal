@@ -3,7 +3,7 @@
 :root {
     --primary: #ae0c0c;
     --secondary: #000000;
-    --secondary-layer: rgb(0, 0, 0, .5);
+    --secondary-layer: rgb(0, 0, 0, .2);
     --text: #c7c7c7;
     --cto: #dd7c12;
     --cto-ligth: #ee9d47;
