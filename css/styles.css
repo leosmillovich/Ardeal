@@ -633,3 +633,45 @@ footer p {
         height: 25rem;
     }
 }
+
+@media (orientation: portrait) and (max-width: 480px) {
+
+    *,
+    *::before,
+    *::after {
+        font-size: 6px;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    main {
+        padding-top: 5rem;
+    }
+
+    span {
+        font-size: 6rem;
+    }
+
+    .container {
+        margin-top: 15rem;
+    }
+
+    .container iframe,
+    .container-rigth img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container-rigth p {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    #achievement {
+        padding: 1rem;
+        width: 20rem;
+        height: 20rem;
+    }
+}
