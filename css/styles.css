@@ -28,6 +28,11 @@ html {
     scrollbar-width: auto;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     background-image: url(../images/trono.png);
     background-size: cover;
@@ -131,7 +136,7 @@ main {
 }
 
 .content p {
-    font-size: 2rem;
+    font-size: clamp(1.6rem, 2.5vw, 2rem);
     letter-spacing: .1rem;
     margin-bottom: 3rem;
 }
@@ -142,7 +147,7 @@ main {
 
 span {
     font-family: 'League Gothic', sans-serif;
-    font-size: 12rem;
+    font-size: clamp(6rem, 10vw, 12rem);
 }
 
 span:hover {
@@ -172,13 +177,13 @@ section .logo {
 }
 
 section h2 {
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 2.5vw, 2.5rem);
     padding: 3rem;
     letter-spacing: .1rem;
 }
 
 section h3 {
-    font-size: 3rem;
+    font-size: clamp(2.2rem, 3vw, 3rem);
     letter-spacing: .1rem;
     padding: 2rem;
     color: var(--cto);
@@ -231,14 +236,14 @@ section .linkedin img:hover {
 .contact-section-social h2 {
     padding: 0;
     width: fit-content;
-    font-size: 3.5rem;
+    font-size: clamp(2.5rem, 3vw, 3.5rem);
     margin: 5rem 0;
     border-bottom: solid .1rem var(--cto-ligth);
     border-top: solid .1rem var(--cto-ligth);
 }
 
 .contact-section-text p {
-    font-size: 2rem;
+    font-size: clamp(1.6rem, 2.2vw, 2rem);
     letter-spacing: .1rem;
 }
 
@@ -274,7 +279,7 @@ section .linkedin img:hover {
 
 .email h3 {
     border: none;
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 2.8vw, 2.5rem);
     color: var(--text);
     padding: 3rem 0 0;
 
@@ -282,7 +287,7 @@ section .linkedin img:hover {
 
 .email h3 a {
     color: var(--cto);
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 2.8vw, 2.5rem);
     border-bottom: solid .2rem var(--cto-ligth);
 }
 
@@ -298,7 +303,7 @@ footer {
 }
 
 footer p {
-    font-size: 2rem;
+    font-size: clamp(1.6rem, 2vw, 2rem);
     border-bottom: solid .1rem var(--text);
     font-family: 'League Gothic', sans-serif;
 }
